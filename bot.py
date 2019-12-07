@@ -42,6 +42,8 @@ while True:
             print(x + y)
         elif operation == "Subtraction":
             print(x - y)
+        elif operation == "Raise power":
+            print(x**y)
     elif user_input.lower() == "Add feelings":
         feel = input("Enter a feeling: ")
         feelings.append(feel)
@@ -66,5 +68,4 @@ while True:
          #       break
     elif user_input.lower() == 'stop':
         break
-    else:
-        print(answers)
+
